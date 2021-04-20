@@ -1,0 +1,135 @@
+/* common styles */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 900px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffdab9;
+  font-family: sans-serif;
+}
+
+header {
+  text-align: center;
+  width: 100%;
+  height: auto;
+  background-size: cover;
+  background-attachment: fixed;
+  position: fixed;
+  overflow: hidden;
+  border-radius: 0 0 85% 85% / 30%;
+  top: 0;
+}
+
+header .overlay {
+  width: 100%;
+  height: 100%;
+  padding: 50px;
+  color: #fff;
+  text-shadow: 1px 1px 1px #333;
+  background-image: linear-gradient(135deg, #9f05ff69 10%, #fd5e086b 100%);
+}
+
+h1 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 80px;
+  margin-bottom: 30px;
+}
+
+h3,
+p {
+  font-family: 'Open Sans', sans-serif;
+  margin-bottom: 30px;
+}
+
+.feu {
+  color: white;
+  text-shadow: 0 0 2px #fefcc9, 1px -1px 3px #feec85, -2px -2px 4px #ffae34,
+    2px -4px 5px #ec760c, -2px -6px 6px #cd4606, 0 -8px 7px #973716,
+    1px -9px 8px #451b0e;
+}
+/* common styles end */
+section {
+  margin: 50px 360px 0px;
+  position: fixed;
+  bottom: 100px;
+}
+
+/* calculator */
+.calculator {
+  width: 300px;
+  padding-bottom: 15px;
+  border-radius: 7px;
+  background-color: #bc8f8f;
+  box-shadow: 5px 8px 8px -2px rgba(0, 0, 0, 0.61);
+}
+/* calculator style end */
+
+/* display */
+/* .diplay {
+  width: 100%;
+  height: 80px;
+  border: none;
+  box-sizing: border-box;
+  padding: 10px;
+  font-size: 2rem;
+  background-color: #fff;
+  color: #000;
+  text-align: right;
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+} */
+
+.display {
+  width: 100%;
+  height: 80px;
+  border: 1rem solid;
+  border-radius: 7px;
+  box-sizing: border-box;
+  padding: 10px;
+  font-size: 2rem;
+  background: white;
+  color: black;
+  text-align: right;
+}
+
+/* row */
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+/* row style end */
+
+/* button */
+button {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: none;
+  outline: none;
+  font-size: 1.5rem;
+  background-color: #222;
+  color: #fff;
+  margin: 10px;
+}
+button:hover {
+  cursor: pointer;
+}
+
+/* button style end */
+
+/* operator */
+.operator {
+  background-color: #9370db;
+  color: #fff;
+}
+
+/* operator style end */
